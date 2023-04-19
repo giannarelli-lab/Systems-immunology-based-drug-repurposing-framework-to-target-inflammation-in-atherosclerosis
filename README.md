@@ -1,4 +1,4 @@
-# Systems-immunology-based-drug-repurposing-framework-to-target-inflammation-in-atherosclerosis
+# Systems immunology based drug-repurposing framework to target inflammation in atherosclerosis
 
 This repository contains the code for the data analysis in the paper: "Systems immunology-based drug repurposing framework to target inflammation in atherosclerosis"
 
