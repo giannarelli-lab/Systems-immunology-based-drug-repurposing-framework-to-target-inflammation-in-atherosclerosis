@@ -8,4 +8,4 @@ Add Link below
 
 #### Bulk-RNAseq
 
-Raw data and processed data will be deposited under GEO accession
+Raw data and processed count matrices for this study have been deposited in GEO under the accession
