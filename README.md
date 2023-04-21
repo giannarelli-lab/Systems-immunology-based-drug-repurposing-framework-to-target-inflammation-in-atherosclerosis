@@ -8,7 +8,7 @@ Add Nature Link below
 
 #### Bulk-RNAseq
 
-Raw data and processed count matrices for this study have been deposited in GEO under the accession number GSE230217
+Raw data and processed count matrices for this study have been deposited in GEO under the accession number GSE230217 https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE230217
 
 #### CYTOF rawdata 
 
