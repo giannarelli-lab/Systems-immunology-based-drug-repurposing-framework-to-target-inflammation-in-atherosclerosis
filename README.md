@@ -8,7 +8,7 @@ Add Link below
 
 #### Bulk-RNAseq
 
-Raw data and processed count matrices for this study have been deposited in GEO under the accession
+Raw data and processed count matrices for this study have been deposited in GEO under the accession number GSE230217
 
 #### Enrichr
 Enrichr version 3.0 was used to do the pathway analysis
