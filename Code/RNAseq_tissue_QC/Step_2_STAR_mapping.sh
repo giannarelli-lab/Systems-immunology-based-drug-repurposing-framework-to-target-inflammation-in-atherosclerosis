@@ -23,7 +23,7 @@ echo $read1
 echo $read2
 echo $output_name
  
-module load star/2.6.1d
+module load star/2.7.7a
  
 STAR --genomeDir /gpfs/Data/genomes/hg38/STAR --readFilesCommand zcat --readFilesIn $path/merged_data/$read1.fastq.gz $path/merged_data/$read2.fastq.gz --outSAMprimaryFlag AllBestScore --outSAMtype BAM SortedByCoordinate --outFileNamePrefix $path/STAR_mapped_data/$output_name. --quantMode GeneCounts
 STAR   --runMode genomeGenerate   --runThreadN 20   --genomeDir /gpfs/Data/genomes/hg38/STAR_51_2.7.7a   --genomeFastaFiles /gpfs/Data/genomes/hg38/GRCh38.primary_assembly.genome.fa      --sjdbGTFfile /gpfs/Data/genomes/hg38/gencode.v36.annotation.gtf   --sjdbOverhang 50
