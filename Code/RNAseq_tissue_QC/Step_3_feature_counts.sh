@@ -18,7 +18,7 @@ mybams=`cat /gpfs/Data/RNAseq/06102022/key_to_FeatureCounts.txt`
 
 module load subread/1.6.3
  
-featureCounts -T 12 -p -g gene_id --extraAttributes gene_type,gene_name -M -a /gpfs/Data/RNAseq/genomes/hg38/gencode.v33.annotation.gtf -o $myoutfile/featurecounts.txt $mybams
+featureCounts -T 12 -s 2 -p -g gene_id --extraAttributes gene_type,gene_name -M -a /gpfs/Data/RNAseq/genomes/hg38/gencode.v33.annotation.gtf -o $myoutfile/featurecounts.txt $mybams
  
 #date
 d2=$(date +%s)
